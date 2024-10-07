@@ -20,7 +20,10 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:3001"],
+    origin: [
+      "https://vercel.live/link/zerodha-dashboard-nu.vercel.app/?via=team-dashboard-project-entity&p=1",
+      "https://vercel.live/link/zerodha-frontend-navy.vercel.app/?via=team-dashboard-project-entity&p=1",
+    ],
     credentials: true,
   })
 );
