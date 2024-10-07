@@ -75,7 +75,7 @@ function Navbar() {
                     <li className="nav-item">
                       <Link
                         className="nav-link active"
-                        to="http://localhost:3001"
+                        to="https://zerodha-sltb.vercel.app"
                       >
                         Dashboard
                       </Link>
